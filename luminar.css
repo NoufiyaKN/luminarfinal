@@ -1,0 +1,97 @@
+#a1{
+    color: rgb(199, 119, 199);
+  }
+  #a1:hover{
+    color: rgb(106, 20, 106);
+  }
+  #i1{
+    height: 100px;
+    width: 100%;
+  }
+  .j{
+    height: 500px;
+    width: 100%;
+  }
+  h5{
+    color: white;
+    font-size: 50px;
+    /* animation: second 5s ease .1s 1; */
+  }
+  h5:hover{
+    color: white;
+  }
+  #b1{
+    background-color: rgb(106, 20, 106);
+    color: white;
+    margin-bottom: 50px;
+    /* margin-right: 910px; */
+    border-radius: 24px 24px 24px 24px;
+    /* font-size: x-small; */
+    /* animation: second 5s ease .5s 1; */
+  }
+  #b1:hover{
+    background-color: rgb(199, 119, 199);
+  }
+  p{
+   font-size: 14px;
+  }
+  @media(max-width : 1000px){
+    h5{
+        font-size: 45px;
+    }
+    p{
+        font-size: 11px;
+    }
+    #b1{
+        font-size: 12px;
+    }
+    #i1{
+        height: 75px;
+        width: 100%;
+    }
+  }
+  @media(min-width : 501px) and (max-width : 700px){
+    h5{
+        font-size: 14px;
+    }
+    p{
+        font-size: 7px;
+    }
+    #b1{
+        font-size: 6px;
+    }
+    .j{
+        height: 325px;
+        width: 100%;
+    }
+    #i1{
+        height: 45px;
+        width: 100%;
+    }
+    #b1{
+        margin-bottom: 65px;
+    }
+  }
+  @media(min-width : 300px) and (max-width : 500px){
+    h5{
+        font-size: 10px;
+    }
+    p{
+        font-size: 5px;
+    }
+    #b1{
+        font-size: 4px;
+    }
+    .j{
+        height: 325px;
+        width: 100%;
+    }
+    #i1{
+        height: 45px;
+        width: 100%;
+    }
+    #b1{
+        margin-bottom: 75px;
+    }
+  }
+  
